@@ -42,7 +42,7 @@ function draw() {
   if(mouse2 < 50) {
     if(mouseIsPressed){
       // spin object 2 by calling its spin() method
-      obj2.spin(0.03)
+      obj2.spin(0.04)
     } else {
       obj2.reset();
     }
